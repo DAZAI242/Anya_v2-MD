@@ -1,4 +1,4 @@
-// Q U E E N - A N Y A - M D  #v2
+// B.O.T   O.T.A.K.U #v2
 
 // • # Made by @PikaBotz [ GitHub.com/PikaBotz ]
 // • # The script is Encrypted because users are not allowed to commit any changes without permission!
@@ -22,19 +22,19 @@ global.lApiKey = {// if this API key get expired then please go to https://api.l
 }
 
 
-global.botname = "DAZAI BOT" 
-global.author = "SARRUI NO_NAME"  
+global.botname = "OTAKU_BOT" 
+global.author = "SARRUI J DAZAI"  
 global.packname = "SARRUI.....UN JOUR PEUT ÊTRE."  
 global.myweb = "Enter Your Any Website Profile Link Here"
 global.footer = "©\t" + "Enter Your Watermark Here"
 global.prefa = ['/'] // single prefix
-global.themeemoji = "🌚"
+global.themeemoji = "🎮"
 global.socialText = `*⪧⪢ Please join this group for by bot's announcement.*`
 global.socialLink = `*⪧⪢ https://chat.whatsapp.com/HshHS6kHF9NHnA9lfMwwSM 💝*`
 
 
 global.ownername = "SARRUI JAMES MORIARTY"    
-global.ownernumber = ["053725924"]
+global.ownernumber = ["242050820212"]
 global.ytname = "YT: Enter Your Channel Name Here"
 global.continent = "Asia" // your continent name 
 global.region = "Enter Your Country Name Here"
@@ -63,7 +63,7 @@ global.thumnnaiIs = fs.readFileSync("./AnyaPikaMedia/Menuimg2.jpeg")
 global.allmenuImg = fs.readFileSync('./AnyaPikaMedia/Allmenu.jpg') // Thumbnail for Allmenu command 
 
 global.mess = {
-    success: 'Done ✅',
+    success: 'Validé ✅',
     admin: 'You must be an admin to use this command.',
     botAdmin: 'The bot needs to be an admin to process this command.',
     owner: 'You are not the owner of this bot so you cannot use this command.',
