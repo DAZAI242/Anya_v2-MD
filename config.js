@@ -1,4 +1,4 @@
-// B.O.T   O.T.A.K.U #v2
+// Q U E E N - A N Y A - M D  #v2
 
 // • # Made by @PikaBotz [ GitHub.com/PikaBotz ]
 // • # The script is Encrypted because users are not allowed to commit any changes without permission!
@@ -22,19 +22,19 @@ global.lApiKey = {// if this API key get expired then please go to https://api.l
 }
 
 
-global.botname = "OTAKU_BOT" 
-global.author = "SARRUI J DAZAI"  
-global.packname = "SARRUI.....UN JOUR PEUT ÊTRE."  
+global.botname = "LE BOT LIBRE " 
+global.author = "SARRUI NO_NAME"  
+global.packname = "LE BOT QUI FAIT CE QU'IL VEUT"  
 global.myweb = "Enter Your Any Website Profile Link Here"
 global.footer = "©\t" + "Enter Your Watermark Here"
 global.prefa = ['/'] // single prefix
-global.themeemoji = "🎮"
+global.themeemoji = "🍷"
 global.socialText = `*⪧⪢ Please join this group for by bot's announcement.*`
 global.socialLink = `*⪧⪢ https://chat.whatsapp.com/HshHS6kHF9NHnA9lfMwwSM 💝*`
 
 
-global.ownername = "SARRUI JAMES MORIARTY"    
-global.ownernumber = ["242050820212"]
+global.ownername = "MP-KING"    
+global.ownernumber = ["242053725924"]
 global.ytname = "YT: Enter Your Channel Name Here"
 global.continent = "Asia" // your continent name 
 global.region = "Enter Your Country Name Here"
@@ -63,48 +63,22 @@ global.thumnnaiIs = fs.readFileSync("./AnyaPikaMedia/Menuimg2.jpeg")
 global.allmenuImg = fs.readFileSync('./AnyaPikaMedia/Allmenu.jpg') // Thumbnail for Allmenu command 
 
 global.mess = {
-    success: 'Validé ✅',
-    admin: 'You must be an admin to use this command.',
+    success: 'VAWULENCE VALIDÉ ✅',
+    admin: '*il te faut un minimum de notoriété pour utiliser cette commande*',
     botAdmin: 'The bot needs to be an admin to process this command.',
-    owner: 'You are not the owner of this bot so you cannot use this command.',
+    owner: '```Tu penses être au même niveau que "SARRUI-Sama" pour utiliser cette commande?```',
     group: 'This command is only made for group chats.',
     private: 'This command is only for private chats.',
     wait: '```「▰▰▰▱▱▱▱▱▱▱」Loading...```',
     link: 'I need a link to process this command.',
     error: '```404 Error```',
     ban: `You're banned from using this bot!`,
-    fiche: 'アニメ.サイコ100🏮
+    nsfw: 'This group is not *NSFW* enabled.',
+    banChat: '```Ce groupe ne pas utiliser le bot pour le moment veuillez contacter le meilleur flemmard all time :SARRUI-SAMA.```',
+    fiche:'mieux tu t"enregistre maintenant', 
 
-*☯︎𝙲𝙰𝚁𝙳 𝙼𝙴𝙼𝙱𝙴𝚁*
-
-𝑵𝑶𝑴:
-
-
-𝑽𝑰𝑪𝑻𝑶𝑰𝑹𝑬ᵠᵘⁱᶻ:00
-
-
-𝑽𝑰𝑪𝑻𝑶𝑰𝑹𝑬ᵈᵘᵉˡ:00
-
-
-𝑽𝑰𝑪𝑻𝑶𝑰𝑹𝑬ᶜʰᵃᵐᵖⁱᵒⁿᵃᵗ:00
-
-
-𝑽𝑬𝑹𝑺𝑬:
-
-
-𝑪𝑶𝑴𝑷𝑻𝑬: 100🪙
-
-
-𝐷𝐴𝑌𝑆= -10🪙
-
-
-*La vie est un jeu alors joue ta vie*🙃
-
-🅑︎🅞︎🅝︎🅝︎🅔︎ Ⓒ︎Ⓗ︎Ⓐ︎Ⓝ︎Ⓒ︎Ⓔ︎',
-    banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
 }
-id: 'SARRUI NO_NAME' 
-    
+
 
 /*𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹 DANGER ZONE ⚠️👇 𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹*/
 let file = require.resolve(__filename)
